@@ -1,0 +1,127 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.fondo {
+    background-image: url('../../assets/pattern-background-desktop.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+.resumen-pedido {
+    background-color: hsl(0, 0%, 98%);
+    border-radius: 20px;
+    max-width: 350px; 
+    min-width: 275px; 
+    text-align: center;
+    padding: 1.5em; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75em; 
+    position: relative;
+    z-index: 1;
+    margin-top: 3em; 
+    margin-bottom: 3em; 
+    font-size: 14px; 
+    font-family: 'Poppins', sans-serif; 
+    overflow: hidden;
+    padding-top: 0; 
+}
+
+.ilustracion {
+    width: 114%;
+    height: auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+h1 {
+    font-size: 20px; 
+    margin-bottom: 8px; 
+    color: rgb(3, 4, 75); 
+    font-weight: 600; 
+}
+
+p {
+    font-size: 14px; 
+    color: rgb(63, 62, 62); 
+    margin-bottom: 16px; 
+}
+
+.plan {
+    display: flex;
+    align-items: center;
+    background-color: hsl(243, 100%, 96%);
+    width: 80%;
+    border-radius: 10px;
+    padding: 0.75em; 
+    color: hsl(240, 60%, 1%); 
+    margin-bottom: 16px; 
+}
+
+.plan img {
+    margin-right: 8px; 
+}
+
+.plan div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+
+.plan span {
+    font-size: 14px; 
+}
+
+.plan .titulo-plan {
+    font-weight: bold;
+    color: hsl(245, 92%, 20%);
+}
+
+.plan .precio {
+    font-size: 12px; 
+    margin-top: 4px; 
+}
+
+.plan button {
+    background: none;
+    border: none;
+    color: hsl(245, 75%, 52%);
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-left: auto; 
+}
+
+.botones {
+    display: flex;
+    flex-direction: column;
+    gap: 8px; 
+    width: 80%; 
+}
+
+.btn-pago {
+    background: #3700ff;
+    color: white;
+    border: none;
+    padding: 10px 70px; 
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-cancelar {
+    background: none;
+    border: none;
+    color: #666;
+    cursor: pointer;
+    font-weight: bold;
+}
